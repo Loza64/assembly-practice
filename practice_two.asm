@@ -16,8 +16,8 @@ SECTION .text
  mov byte [si+5], 05h
  mov byte [si+6], 02h
  mov byte [si+7], 02h
-;mov abs [si+4], memoria a registro indirecto
-;mov abs [0200h+4], memoria a registro absoluto
+;mov abs, [si+4], memoria a registro indirecto
+;mov abs, [0200h+4], memoria a registro absoluto
 ;mov byte [0200h+4], abs registro a memoria
 
 
