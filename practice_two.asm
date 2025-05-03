@@ -19,3 +19,6 @@ SECTION .text
 
  ; 2. Segundo bloque: 00
  mov [si+8], ax
+
+;nasm -f bin practice_two.asm -o result.com
+;dosbox result.com
